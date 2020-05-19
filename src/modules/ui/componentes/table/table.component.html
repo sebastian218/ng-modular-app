@@ -1,17 +1,15 @@
-<h1>Ui module - table component  </h1>
+<h1>Ui module - table component </h1>
 
 <p>table works!</p>
- 
-<a [routerLink]="['detalle']">detalle</a>
-<button matTooltip="Info about the action" mat-raised-button color="primary">Primary</button>
+
+<button [routerLink]="['detalle']" matTooltip="Info about the action" mat-raised-button color="primary">
+   Ver detalle</button>
 
 
- <router-outlet ></router-outlet>
+<router-outlet></router-outlet>
 
 
- <div style="background-color: aquamarine;margin-left: 50%;">
-    <router-outlet name="sidebar"></router-outlet>
-    
- </div>
- 
- 
+<div style="background-color: aquamarine;margin-left: 50%;">
+   <router-outlet name="sidebar"></router-outlet>
+
+</div>
